@@ -1,0 +1,117 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  font-size: calc(8px + 2vmin);
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+body {
+  /* overflow: hidden; */
+  color: #8884d8;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+}
+
+.form {
+  background-color: #f6f6f6 !important;
+}
+
+.icon {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+.leftHeaderContainer {
+  display: flex;
+}
+
+.chartHeader {
+  margin: 10px;
+}
+
+.mainContainer {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.mainContainer p {
+  margin: 10px;
+}
+
+.duration {
+  height: 300px;
+}
+
+.chart {
+  margin: 20px 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+}
+
+.droneContent {
+  font-size: 18px;
+}
+
+.droneContent div {
+  width: 100%;
+}
+
+.head {
+  font-weight: bold;
+}
+
+.missionData {
+  font-size: 18px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.missionData p {
+  margin: 10px 0;
+}
+
+.stats {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stats p {
+  font-size: 14px;
+  margin: 5px;
+  display: flex;
+}
+
+.verticalLine {
+  margin: 10px 15px 10px 55px;
+  width: 2px;
+  background: #8884d8;
+}
